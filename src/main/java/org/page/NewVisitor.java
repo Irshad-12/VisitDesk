@@ -23,6 +23,7 @@ import java.util.concurrent.TimeUnit;
 public class NewVisitor extends BaseTest {
     public NewVisitor() {
 
+
         PageFactory.initElements(driver, this);
     }
 

@@ -8,6 +8,7 @@
 <!--                    <include name="validateInvitedVisitor"/>-->
 <!--                </methods>-->
 <!--            </class>-->
+
             <class name="org.test.RecurringPageTest">
                 <methods>
                     <include name="validateRecurringVisitor"/>

@@ -16,6 +16,7 @@ public class LoginPageTest extends BaseTest {
         visitors =new Visitors();
     }
 
+
     @Test
     public void validateLogin() throws InterruptedException {
         visitors.verifyInvestors();

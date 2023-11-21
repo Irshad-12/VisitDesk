@@ -17,6 +17,7 @@ public class ViewInvites extends BaseTest {
     @FindBy(id = "view-invites")
     public WebElement viewInvitesPage;
 
+
     @FindBy(xpath ="//a[@class='ng-binding']")
     public WebElement token;
 

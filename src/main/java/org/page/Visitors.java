@@ -23,6 +23,7 @@ public class Visitors extends BaseTest {
         PageFactory.initElements(driver, this);
     }
 
+
     public void verifyInvestors() throws InterruptedException {
         loginPage = new LoginPage();
         boolean b=loginPage.ValidateBusinessCode();

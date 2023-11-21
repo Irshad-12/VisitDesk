@@ -27,6 +27,7 @@ public class RecurringVisitor extends BaseTest {
     @FindBy(xpath = "//option[contains(@ng-repeat,'branch in branches')]")
     public WebElement branchValue;
 
+
     @FindBy(xpath = "(//select[contains(@class,'ng-invalid-required')])")
     public WebElement BranchValuesdropDwn;
     @FindBy(xpath = "//input[@name='email']")

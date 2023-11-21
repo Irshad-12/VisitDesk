@@ -14,6 +14,7 @@ public class NewVisitorPageTest extends BaseTest {
     Visitors inviteVisitor;
     ViewInvites viewInvites;
 
+
     @Test
     public void validateNewVisitor() throws InterruptedException, ParseException {
         newVisitor=new NewVisitor();

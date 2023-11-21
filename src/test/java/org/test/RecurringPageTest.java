@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 
 
 public class RecurringPageTest extends BaseTest {
+
     RecurringVisitor recurringVisitor;
     Visitors inviteVisitor;
 

@@ -48,10 +48,8 @@ public class LoginPage extends BaseTest {
 
     public boolean ValidateBusinessCode() throws InterruptedException
     {
+
 //        login.click();
-//        Set<String> windowHandles = driver.getWindowHandles();
-//        List<String> windowHandlesList = new ArrayList<>(windowHandles);
-//        driver.switchTo().window(windowHandlesList.get(1));
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(40));
         wait.until(ExpectedConditions.visibilityOf(businessText));
         String ele = businessText.getText();

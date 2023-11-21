@@ -13,6 +13,7 @@ public class InvitedVisitor extends BaseTest {
     RecurringVisitor recurringVisitor;
     NewVisitor newVisitor;
     public InvitedVisitor() {
+
         PageFactory.initElements(driver, this);
         recurringVisitor=new RecurringVisitor();
         newVisitor=new NewVisitor();
